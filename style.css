@@ -1,35 +1,24 @@
-/* style.css - Historical Styling for Twain Project */
-
-/* Global Reset */
-* {
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdf6e3;
+    color: #3e2f1c;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Body Styling */
-body {
-    font-family: 'Georgia', 'Times New Roman', serif;
-    background-color: #fdf6e3; /* parchment-like background */
-    color: #3e2f1c; /* dark brown text */
-    line-height: 1.6;
-    padding: 20px;
-}
-
-/* Header */
 header {
     text-align: center;
     padding: 20px;
-    border-bottom: 3px solid #8b5e3c;
-    font-size: 2.5em;
+    background-color: #e6d3b3;
+    font-size: 2em;
     font-weight: bold;
-    color: #5a3e2b;
+    border-bottom: 3px solid #8b5e3c;
 }
 
-/* Navigation */
 nav {
     text-align: center;
-    margin: 20px 0;
+    background-color: #f9f1e7;
+    padding: 10px;
 }
 
 nav a {
@@ -39,15 +28,13 @@ nav a {
     margin: 0 15px;
     padding: 8px 12px;
     border: 1px solid #8b5e3c;
-    background-color: #f9f1e7;
-    transition: background-color 0.3s ease;
+    background-color: #fff8e7;
 }
 
 nav a:hover {
     background-color: #e6d3b3;
 }
 
-/* Main Content */
 main {
     max-width: 800px;
     margin: auto;
@@ -55,36 +42,14 @@ main {
     background-color: #fff8e7;
     border: 2px solid #8b5e3c;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(139, 94, 60, 0.3);
+    margin-top: 20px;
 }
 
-/* Headings */
-h1, h2, h3 {
-    font-family: 'Georgia', serif;
-    color: #5a3e2b;
-    margin-bottom: 10px;
-}
-
-/* Paragraphs */
-p {
-    margin-bottom: 15px;
-    font-size: 1.1em;
-}
-
-/* Footer */
 footer {
     text-align: center;
-    margin-top: 30px;
+    padding: 10px;
+    margin-top: 20px;
     font-size: 0.9em;
     color: #5a3e2b;
     border-top: 2px solid #8b5e3c;
-    padding-top: 10px;
-}
-
-/* Images */
-img {
-    max-width: 100%;
-    border: 3px solid #8b5e3c;
-    margin: 15px 0;
-    border-radius: 4px;
 }
